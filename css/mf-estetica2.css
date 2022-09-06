@@ -1,0 +1,156 @@
+.{margin: 0;
+padding: 0;}
+
+html{font-size: 75%;}
+
+
+
+body{
+    background: radial-gradient(#ecb562, #f3d4bbf3);
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+
+
+
+
+
+
+
+#MENU1{
+    background-size: 800px;
+    width: 800px;
+    height: 30px;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:center;
+    
+    
+}
+
+.he1{
+    margin: 0px;
+    padding: 0px;
+    width: 160px;}
+.he2{margin: 0px;
+    padding: 0px;width: 160px;}
+.he3{margin: 0px;
+    padding: 0px;width: 160px;}
+.he4{margin: 0px;
+    padding: 0px;width: 160px;}
+.he5{margin: 0px;
+    padding: 0px;width: 160px;}
+
+.P1{margin: 0;padding: 0;}
+.a1{text-decoration: none;}
+.a2{text-decoration: none;}
+.a3{text-decoration: none;}
+.a4{text-decoration: none;}
+
+
+
+
+
+
+
+
+
+.grid__principall{
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 50px 300px 200px ;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    align-content: space-around;
+    justify-content: stretch;
+    align-items:start ;
+    justify-items: stretch;
+    grid-template-areas: "titulo titulo" "imagen parrafo" "parrafo2 parrafo2";}
+
+
+
+.main__titulo{color: rgb(80, 10, 146);
+    grid-area:titulo}
+
+.imagen{
+    grid-area:imagen;
+    justify-items: stretch;}
+    
+.parrafos__paginas{
+    grid-area:parrafo}
+
+.parrafos__paginas2{
+        grid-area:parrafo2}
+
+
+
+
+
+
+
+.grid__footer{
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-template-rows: 150px 50px 150px ;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-areas: "horarios servicios contactos direccion" "imagen parrafo" "parrafo2 parrafo2";}
+
+
+
+        .footer__horarios{
+            grid-area:horario}
+        
+        .footer__servicios{
+            grid-area:servicios
+            }
+        
+        .footer__contactos{
+            grid-area:contacto}
+        
+        
+        .footer__direccion{
+            grid-area:direccion}
+        
+        
+        
+        .footer__paginas{
+            grid-area:paginas;
+            align-items: start;
+            text-justify: auto;
+            text-align: left;}
+        
+        .footer__redes{
+              grid-area:redes}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
