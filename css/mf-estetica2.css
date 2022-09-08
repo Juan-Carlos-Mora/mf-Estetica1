@@ -1,4 +1,4 @@
-.{margin: 0;
+*{margin: 0;
 padding: 0;}
 
 html{font-size: 75%;}
@@ -6,8 +6,9 @@ html{font-size: 75%;}
 
 
 body{
-    background: radial-gradient(#ecb562, #f3d4bbf3);
+    background: radial-gradient(#f1d3a5, #f1ddcdf3);
     font-family:'Courier New', Courier, monospace;
+    color: #a3781c;
     
 }
 
@@ -16,55 +17,67 @@ body{
 
 
 
-
+.Pmenu{
+    display:flex;
+    justify-content: left;
+    align-items: left;}
 
 #MENU1{
-    background-size: 800px;
-    width: 800px;
+    color:#a3781c;
+    font-size:1.10rem;
+    background-size: 100%;
+    width: 100%;
     height: 30px;
     margin:0;
     padding:0;
     display: flex;
-    flex-flow: row nowrap;
-    align-items:center;
-    
-    
-}
+    flex-direction: row;
+    text-align: center;
+    line-height: 2.5rem;}
+
 
 .he1{
     margin: 0px;
     padding: 0px;
-    width: 160px;}
+    width: 20%;height: 30px; vertical-align: middle;
+    }
+
 .he2{margin: 0px;
-    padding: 0px;width: 160px;}
+    padding: 0px;
+    width: 20%;
+    height: 30px;}
 .he3{margin: 0px;
-    padding: 0px;width: 160px;}
+    padding: 0px;
+    width: 20%;height: 30px;}
 .he4{margin: 0px;
-    padding: 0px;width: 160px;}
+    padding: 0px;
+    width: 20%;height: 30px;}
 .he5{margin: 0px;
-    padding: 0px;width: 160px;}
+    padding: 0px;
+    width: 20%;height: 30px; }
 
-.P1{margin: 0;padding: 0;}
-.a1{text-decoration: none;}
-.a2{text-decoration: none;}
-.a3{text-decoration: none;}
-.a4{text-decoration: none;}
-
-
-
+.P1{margin: 0;padding: 0;height: 30px;}
+.a1{margin:0; padding:0;text-decoration: none;height: 30px;}
+.a2{margin:0; padding:0;text-decoration: none;height: 30px;}
+.a3{margin:0; padding:0;text-decoration: none;height: 30px;}
+.a4{margin:0; padding:0;text-decoration: none;height: 30px;}
 
 
-
+#logo{margin: 0; padding: 0;}
 
 
 
-.grid__principall{
-    width: 800px;
-    margin: 0;
+
+
+
+ .grid__principall{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 50px 300px 200px ;
+    grid-template-rows: 50px 300px;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     align-content: space-around;
@@ -75,7 +88,8 @@ body{
 
 
 
-.main__titulo{color: rgb(80, 10, 146);
+.main__titulo{color: #755104;
+    margin: 10px;
     grid-area:titulo}
 
 .imagen{
@@ -83,74 +97,86 @@ body{
     justify-items: stretch;}
     
 .parrafos__paginas{
-    grid-area:parrafo}
+    grid-area:parrafo;
+    text-align: justify;}
 
 .parrafos__paginas2{
         grid-area:parrafo2}
 
 
+.footer{
+    display: flex;
+    margin: 5px;
+    
+}
 
-
-
-
-
-.grid__footer{
-    width: 800px;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr 1fr;
-    grid-template-rows: 150px 50px 150px ;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    grid-template-areas: "horarios servicios contactos direccion" "imagen parrafo" "parrafo2 parrafo2";}
-
-
-
-        .footer__horarios{
-            grid-area:horario}
-        
-        .footer__servicios{
-            grid-area:servicios
-            }
-        
-        .footer__contactos{
-            grid-area:contacto}
-        
-        
-        .footer__direccion{
-            grid-area:direccion}
-        
-        
-        
-        .footer__paginas{
-            grid-area:paginas;
-            align-items: start;
-            text-justify: auto;
-            text-align: left;}
-        
-        .footer__redes{
-              grid-area:redes}
-        
+.footer__horarios{width: 25%;
+    margin: 5px;
+    text-align: left;
+    display: inline-block;
+}
+ 
+.footer__servicios{display: inline-block;width: 25%;}
+.footer__contactos{display: inline-block; width: 25%;}
+.footer__direccion{display: inline-block;  width: 25%;}
 
 
 
 
 
 
+.footer__redes{
+    text-decoration: none;
+    display:flex;
+    width: 100%; 
+    margin: 5px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;}
 
 
 
 
 
+.face{margin: 10px;}
+.insta{margin: 10px;}
+.what{margin: 10px;}
 
 
 
 
 
+.footer__paginas{
+    display:flex;
+    width: 100%; 
+    margin: 5px;
+    justify-content: space-around;
+    line-height: 2.5rem;
+    }
+
+.mf{margin: 5px;}
+.privacidad{margin: 5px;}
+.cookies{margin: 5px;}
+.Terminos{margin: 5px;}
 
 
 
 
 
+/* servicios */
 
+
+.Pserv{text-align: justify;
+margin-bottom: 20PX;}
+
+.Fserv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10PX;
+    margin-bottom: 30px;
+}
+
+
+
+
+ 
