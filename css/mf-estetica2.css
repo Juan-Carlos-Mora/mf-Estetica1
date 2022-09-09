@@ -161,13 +161,89 @@ body{
 
 
 
+/* media de index  768px*/
+
+@media(max-width: 515px)
+{
+    .Pmenu img{ width: 100%; height: 200px;
+        display:flex;
+        justify-content: left;
+        align-items: left;}
+
+    #MENU1{
+        margin:0px;
+        padding: 0px;;
+        flex-direction: row;
+        }
+
+        .grid__principall{
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 50px 200px 200px;
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            align-content: space-around;
+            justify-content: stretch;
+            align-items:start ;
+            justify-items: stretch;
+            grid-template-areas: "titulo" "imagen" "parrafo" ;}
+            .imagen img{ width: 100%; height: 200px;}
+
+            .footer{
+                display:none;
+                margin: 5px;
+                
+            }
+            
+            .footer__horarios{width: 25%;
+                margin: 5px;
+                text-align: left;
+                display: block;
+            }
+             
+            .footer__servicios{display: block;width: 25%;}
+            .footer__contactos{display: block; width: 25%;}
+            .footer__direccion{display: block;  width: 25%;}
+            
+                      
+            .footer__redes{
+                text-decoration: none;
+                display:flex;
+                width: 100%; 
+                margin: 5px;
+                align-items: center;
+                margin: auto;
+                justify-content: space-evenly;}
+               
+                .footer__paginas{
+                    display:none;
+                    }
+                
+                .mf{margin: 5px;}
+                .privacidad{margin: 5px;}
+                .cookies{margin: 5px;}
+                .Terminos{margin: 5px;}
+
+                .Redes{
+                    align-items: center;
+                }} 
+    
+/* media de  */
+
+
+
 
 
 /* servicios */
-
+.MENU1{margin-bottom: 30PX;}
+.main__titulo{margin-top: 40px;}
 
 .Pserv{text-align: justify;
-margin-bottom: 20PX;}
+margin-bottom: 40PX;}
 
 .Fserv{
     display: flex;
@@ -175,8 +251,32 @@ margin-bottom: 20PX;}
     margin-top: 10PX;
     margin-bottom: 30px;
 }
+.Tlim, .Ttra, .Texf{ margin: 5px;}
 
 
+
+@media (max-width:515px) {
+
+
+    .MENU1{margin-bottom: 30PX;}
+    .main__titulo{margin-top: 40px;}
+    
+    .Pserv{text-align: justify;
+    margin-bottom: 40PX;}
+    
+    .Fserv{
+        display: column;
+        justify-content: space-around;
+        margin-top: 10PX;
+        margin-bottom: 30px;
+    }
+    .Tlim, .Ttra, .Texf{ margin: 5px;}
+    
+
+
+
+    
+}
 
 
  
