@@ -6,9 +6,9 @@ html{font-size: 75%;}
 
 
 body{
-    background: radial-gradient(#f1d3a5, #f1ddcdf3);
+    background: radial-gradient(#ddb4b4, #ddd2d2);
     font-family:'Courier New', Courier, monospace;
-    color: #a3781c;
+    color: #57102e;
     
 }
 
@@ -23,7 +23,7 @@ body{
     align-items: left;}
 
 #MENU1{
-    color:#a3781c;
+    color:#57102e;
     font-size:1.10rem;
     background-size: 100%;
     width: 100%;
@@ -74,7 +74,7 @@ body{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 40px;
-    padding: 0;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 50px 300px;
@@ -88,9 +88,11 @@ body{
 
 
 
-.main__titulo{color: #755104;
+.main__titulo{color: #57102e;
     margin: 10px;
-    grid-area:titulo}
+    grid-area:titulo;
+    line-height: 0.15rem;
+    }
 
 .imagen{
     grid-area:imagen;
@@ -141,6 +143,7 @@ body{
 .face{margin: 10px;}
 .insta{margin: 10px;}
 .what{margin: 10px;}
+
 
 
 
@@ -232,24 +235,21 @@ body{
                     align-items: center;
                 }} 
     
-/* media de  */
-
-
-
 
 
 /* servicios */
-.MENU1{margin-bottom: 30PX;}
-.main__titulo{margin-top: 40px;}
 
-.Pserv{text-align: justify;
-margin-bottom: 40PX;}
+    .MENU1{margin-bottom: 30PX;}
+    .main__titulo{margin-top: 40px;}
 
-.Fserv{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10PX;
-    margin-bottom: 30px;
+    .Pserv{text-align: justify;
+            margin-bottom: 40PX;}
+
+    .Fserv{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10PX;
+        margin-bottom: 30px;
 }
 .Tlim, .Ttra, .Texf{ margin: 5px;}
 
