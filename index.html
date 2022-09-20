@@ -1,125 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-        <style>
-           
-            #MENU1{
-                color:black;
-                background:radial-gradient( #ddd2d2, #ddb4b4)}
-            #MENU1 .he1,.he2 ,.he3 ,.he4 ,.he5{
-                list-style:none;
-                text-decoration:none;
-                text-decoration-color:none;
-                padding: 0px;}
-            #MENU1 .he1:hover{background-color: #e49b9b;} 
-            #MENU1 .he2:hover{background-color: #e49b9b;}
-            #MENU1 .he3:hover{background-color: #e49b9b;}
-            #MENU1 .he4:hover{background-color: #e49b9b;}
-            #MENU1 .he5:hover{background-color: #e49b9b;}     
-            #Paginas li a .privacidad, .privacidad, .cookies, .Terminos{list-style:none ; text-decoration: none; padding: 0;}        
-        
-                
-        
-        
-        </style>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MF-Estetica</title>
     <link rel="shortcut icon" href="./imagenes/logorosado.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/mf-estetica2.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mf-estetica2.css">
     
 </head>
 
     <body>
-        
         <header>
-            <div class="Pmenu"id="logo">
-                <img src="./imagenes/logoestetica.jpg" width="100%" height="400px">
-            </div>
-            <nav>          
-                 <ul id="MENU1">
-                    <li class="he1"><h4 class="P1">Quienes somos</h4></li>
-                    <li class="he2"><a class="a1" style="color: #57102e;" href="paginas/servicio.html"h3>Servicios</a></li>
-                    <li class="he3"><a class="a2" style="color: #57102e;"href="paginas/catalogo.html"h3>Catalogo</a></li>
-                    <li class="he4"><a class="a3" style="color: #57102e;"href="paginas/galeria.html"h3>Galeria</a></li>
-                    <li class="he5"><a class="a4" style="color: #57102e;"href="paginas/contacto.html"h3>Contacto</a></li> 
-                </ul>  
-                   
-            </nav>
-
-        </header>
-
-
-        
-            <main>
-                <div class="grid__principall">
-                    <div class="main__titulo"><h2>Quienes Somos</h2></div>           
-                    <div  class= "imagen"><img src="./imagenes/tratamient4.jpg" alt="Tratamiento de punta diamante" width="100%" height="300px"></div>
-                    <div class="parrafos__paginas"><p>En MF-Estetic, nos dedicamos a la imagen y estetica personal, contamos con la mas alta tecnologia y personal capacitado para realizar a nuestra clientela la mejor experiencia y optener los mejores resultados en los tratamientos a realizarce. Colocamos a su alcance productos de calidad que les permitira sentirse y verse bien.
-                    </p>
-                    <h3>Valores</h3>
-                    <ul>
-                        <ol>Excelencia en el servicio</ol>
-                        <ol>Honestidad Absoluta en la recomendaciones de productos</ol>
-                        <ol>Profesionales a su disposición</ol>
-                        <ol>Innovación y actualizaciones en tratamientos</ol>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/carrusel/radiofrecuencia.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/carrusel/tratamient3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/carrusel/mascarillas.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </header>                   
+            <nav class="navbar navbar-expand-lg Color-navbar">
+                <div class="container-fluid">
+                <a class="navbar-brand Color-Text-Nav" href="#"><img src="./imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Quienes Somos</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-stars" id="navbarNav" >
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link Color-Text-Nav" href="./paginas/servicio.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link Color-Text-Nav" href="./paginas/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  Color-Text-Nav" href="./paginas/catalogo.html">Catalogo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link Color-Text-Nav" href="./paginas/contacto.html">Contactos</a>
+                      </li>
                     </ul>
-                    <p>"Lo mas importante para nosostros es que te sientas bien en tu estetica personal.</p>
+                  </div>
+                </div>          
+            </nav>
+          <main>
+                <div class="grid__principall">
+                    <div class="main__titulo"><h4>Quienes Somos</h4></div>           
+                    <div  class= "imagen"><img src="./imagenes/variasssssss.jpeg" alt="Tratamiento de punta diamante" width="100%" height="400rem"></div>
+                    <div class="parrafos__paginas"><p>En MF-Estetica nos dedicamos a la imagen y estetica personal, contamos con la mas alta tecnologia y personal capacitado para realizar a nuestra clientela la mejor experiencia y optener los mejores resultados en los tratamientos a realizarce. Colocamos a su alcance productos de calidad que les permitira sentirse y verse bien.
+                    </p>
+                    <h6>Valores</h6>
+                        <div>
+                            <ul>
+                                <li>Excelencia en el servicio.</li>
+                                <li>Honestidad Absluta en la recomendaciones de productos.</li>
+                                <li>Profesionales a su disposición las 24hrs los 7 dias de la semana.</li>
+                                <li>Innovación y actualizaciones en tratamientos.</li>
+                            </ul>
+                            
+                            <p>"Lo mas importante para nosostros es que te sientas bien contigo mismo"</p>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </main>
-
-        <footer>
-        
-            <div class="footer"> 
+          </main>
+          <footer>
+                <div class="footer"> 
                 
-                <div class="footer__horarios">
-                    <h4 class="alineacion__h3footer">Horarios de Atencion</h4>
-                    <li > 7:00 Am a 5:00 pm</li> 
-                    <li >Sab 7:00 Am a 2:00 Pm</li>
-                </div>   
-                
-                <div  class="footer__servicios">      
-                    <h4 class="alineacion__h3footer">Servicios</h4>
-                    <li >Limpiezas Profundas</li>
-                    <li >Tratamientos Purificantes</li>
-                    <li >Exfoliacion</li>
-                    <li >Tratamiento Antiarrugas</li>
-                </div>
-                
-                <div  class="footer__contactos">
-                    <h4 class="alineacion__h3footer">Contactanos:</h4>
-                    <li > 223-525222222</li>
-                    <li >Email: MF-Estetica@gmail.com</li>
-                </div>
-
-                <div  class="footer__direccion">
-                    <h4 class="alineacion__h3footer">Direccion:</h4>
-                    <li > Mar del Plata, Maipu 5800 Piso 1 Local 3</li>
-                </div>
-            </div>
-            
-                <div class="footer__redes">
+                    <div class="footer__horarios">
+                        <h6 class="alineacion__h3footer">Horarios de Atencion:</h6>
+                        <li > 7:00 Am a 5:00 pm</li> 
+                        <li >Sab 7:00 Am a 2:00 Pm</li>
+                    </div>   
                     
-                    <a class="face" href="http:www.facebook.com" target="_blank"><img src="./imagenes/facebook-removebg-preview (1).png" class="Face"alt="facebook" width="30px" height="30px"></a>
-                    <a  class="inst" href="http:www.Instagram.com" target="_blank"><img src="./imagenes/insta-removebg-preview (1).png" class="Insta"alt="Instagram" width="30px"height="30px"></a>
-                    <a class="what" href="https://web.whatsapp.com/" target="_blank"><img src="./imagenes/WhatsApp-removebg-preview (1).png" class="What"alt="whatsapp" width="30px" height="30px"></a>
-                </div>        
-                <DIv class="Redes">Contactanos por nuestras redes sociales</DIv>
-                
-            <div id="Paginas" >
-                <li class="footer__paginas">
-                        <img src="./imagenes/logorosado.png" alt="MF-Estetica" width="60px" height="60px" >
-                        <a class="privacidad" style="color: #57102e;"href="paginas/politicas-de-privacidad.html"h3>Aviso legal y politicas de privacidad</a>
-                        <a class="cookies" style="color: #57102e;" href="paginas/politicas-de-cookies.html"h3>Politica de Cookies</a>
-                        <a class="Terminos"  style="color: #57102e;"href="paginas/terminos-y-condiciones.html"h3>Terminos y Condiciones</a>
+                    <div  class="footer__servicios">      
+                        <h6 class="alineacion__h3footer">Servicios:</h6>
+                        <li >Limpiezas Profundas</li>
+                        <li >Tratamientos Purificantes</li>
+                        <li >Exfoliacion</li>
+                        <li >Tratamiento Antiarrugas</li>
+                    </div>
                     
-                </li>
-            </div>
-        </footer>
-    
+                    <div  class="footer__contactos">
+                        <h6 class="alineacion__h3footer">Contactanos:</h6>
+                        <li > 223-525222222</li>
+                        <li >Email: MF-Estetica@gmail.com</li>
+                    </div>
+
+                    <div  class="footer__direccion">
+                        <h6 class="alineacion__h3footer">Direccion:</h6>
+                        <li > Mar del Plata, Maipu 5800 Piso 1 Local 3</li>
+                    </div>
+                </div>
+                <div class="Pie_pagina">
+                    <div class="footer__redes">
+                        
+                        <a class="face" href="http:www.facebook.com" target="_blank"><img src="./imagenes/facebook-removebg-preview (1).png" class="Face"alt="facebook"></a>
+                        <a  class="inst" href="http:www.Instagram.com" target="_blank"><img src="./imagenes/insta-removebg-preview (1).png" class="Insta"alt="Instagram"></a>
+                        <a class="what" href="https://web.whatsapp.com/" target="_blank"><img src="./imagenes/WhatsApp-removebg-preview (1).png" class="What"alt="whatsapp"></a>
+                    </div>        
+                    <DIv class="Redes">Contactanos por nuestras redes sociales</DIv>
+                    
+                    <div class="footer__paginas" >
+                            <a class="privacidad" style="color: #57102e;"href="paginas/politicas-de-privacidad.html"h3>Aviso legal y politicas de privacidad</a>
+                            <a class="cookies" style="color: #57102e;" href="paginas/politicas-de-cookies.html"h3>Politica de Cookies</a>
+                            <a class="Terminos"  style="color: #57102e;"href="paginas/terminos-y-condiciones.html"h3>Terminos y Condiciones</a> 
+                    </div>
+                </div>
+          </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </body>
 </html>
 
