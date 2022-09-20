@@ -172,6 +172,20 @@ body{
         grid-row-gap: 1rem;
         grid-template-areas: "titulo titulo" "imagen parrafo" "imagen2 parrafo2" "imagen3 parrafo3" "imagen4 parrafo4";}
 
+
+    .Cards{
+        background:linear-gradient(#c26188, #f5dbdb)        margin-top: 1rem;
+    }
+    .Cards-bt{
+        background-color: #c26188;
+    }
+
+
+
+
+
+
+
 /* media de index  768px*/
 
 @media(max-width: 768px) and (min-width:660px)
