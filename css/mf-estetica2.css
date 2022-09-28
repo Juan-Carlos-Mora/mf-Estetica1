@@ -72,18 +72,18 @@ body{
         color: #57102e;
         height: 9rem;}
 
-    .face img{
-        width: 3.5rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;}
-    .inst img{
-        width: 3.5rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;}
-    .what img{
-        width: 3.5rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;}
+        .face img{
+            width: 3.5rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;}
+        .inst img{
+            width: 3.5rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;}
+        .what img{
+            width: 3.5rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;}
 
     .footer__paginas{
         display:flex;
@@ -115,9 +115,9 @@ body{
         display: flex;
         width: 100%;    
         margin-bottom: 3rem;}
-    .Contact img{width:50%; height: 27rem;
-        margin-left: 1rem;
-        margin-right: 1rem;}
+        .Contact img{width:50%; height: 27rem;
+            margin-left: 1rem;
+            margin-right: 1rem;}
     .Fieldset{ 
         display: flex;
         width: 50%;
@@ -127,19 +127,13 @@ body{
         padding: 0;}
 
         .Name{margin-top: 1rem;margin-bottom: 1rem;}
-        .Name input{background-color: #f5dbdb; border-color: #c26188;}        
+            .Name input{background-color: #f5dbdb; border-color: #c26188;}        
         .Email{margin-top: 1rem;margin-bottom: 1rem;}
-        .Email input{background-color: #f5dbdb; border-color: #c26188;}        
+            .Email input{background-color: #f5dbdb; border-color: #c26188;}        
         .CTexto{margin-top: 1rem;margin-bottom: 1rem;}
-        .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
+            .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
         .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;}
-        .Botones input{        
-            background-color: #f5dbdb;
-            color: #57102e;
-            border-color: #c26188;
-           
-    
-}
+            .Botones input{background-color: #f5dbdb;color: #57102e;border-color: #c26188;}
 
 
 
@@ -147,19 +141,19 @@ body{
 /* servicios */
     .main__titulo{margin-top: 3rem;margin-bottom: 4rem;}
 
-    .grid__Servicio{
-        width: 100%;
-        height: 1fr;
-        margin: 0;
-        margin-top: .75rem;
-        margin-bottom: 3rem;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 0.5fr  1fr;
-        grid-template-rows: 0.15fr 1fr 1fr 1fr 1fr;
-        grid-column-gap: 1rem;
-        grid-row-gap: 1rem;
-        grid-template-areas: "titulo titulo" "imagen parrafo" "imagen2 parrafo2" "imagen3 parrafo3" "imagen4 parrafo4";}
+        .grid__Servicio{
+            width: 100%;
+            height: 1fr;
+            margin: 0;
+            margin-top: .75rem;
+            margin-bottom: 3rem;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 0.5fr  1fr;
+            grid-template-rows: 0.15fr 1fr 1fr 1fr 1fr;
+            grid-column-gap: 1rem;
+            grid-row-gap: 1rem;
+            grid-template-areas: "titulo titulo" "imagen parrafo" "imagen2 parrafo2" "imagen3 parrafo3" "imagen4 parrafo4";}
         .imagen{grid-area:imagen;}
         .imagen2{grid-area:imagen2;}
         .imagen3{grid-area:imagen3;}
@@ -172,9 +166,10 @@ body{
         .parrafos__paginas3{margin: 1rem;grid-area:parrafo3;text-align: justify;}
     
         .parrafos__paginas4{margin: 1rem;grid-area:parrafo4;text-align: justify;}
-    
-
-    .Cards{
+        .parrafos__paginas5{margin: 0;grid-area:parrafo4;text-align: justify;}
+        .parrafos__paginas5 p{margin-top: 1rem;}
+        .parrafos__paginas5 h3,h4,h5{margin-top: 1rem;}
+        .Cards{
         background-color:#fa84b3; color: white;margin-top: 1rem;margin-bottom: 1rem;}
         .Cards img{margin-top: 1rem;}
         .Botones{background-color: #ddb4b4;
@@ -243,9 +238,9 @@ body{
             flex-direction: column;
             width: 100%;    
             margin-bottom: 3rem;}
-        .Contact img{width:100%; height: 27rem;
-            margin-left: 1rem;
-            margin-right: 1rem;}
+            .Contact img{width:100%; height: 27rem;
+                margin-left: 1rem;
+                margin-right: 1rem;}
         .Fieldset{ 
             flex-direction: column;
             width: 100%;
@@ -255,17 +250,17 @@ body{
             padding: 0;}
     
             .Name{margin-top: 1rem;margin-bottom: 1rem;}
-            .Name input{background-color: #f5dbdb; border-color: #c26188;}        
+                .Name input{background-color: #f5dbdb; border-color: #c26188;}        
             .Email{margin-top: 1rem;margin-bottom: 1rem;}
-            .Email input{background-color: #f5dbdb; border-color: #c26188;}        
+                .Email input{background-color: #f5dbdb; border-color: #c26188;}        
             .CTexto{margin-top: 1rem;margin-bottom: 1rem;}
-            .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
+                .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
             .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;}
-            .Botones input{        
-                background-color: #f5dbdb;
-                color: #57102e;
-                border-color: #c26188;}} 
-    
+                .Botones input{        
+                    background-color: #f5dbdb;
+                    color: #57102e;
+                    border-color: #c26188;}} 
+        
 
 @media(max-width:659px) and (min-width:400px){
 
