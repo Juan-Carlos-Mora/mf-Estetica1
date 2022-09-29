@@ -1,17 +1,17 @@
 *{margin: 0;
 padding: 0;}
 
-html{font-size: 80%;}
 
 
 
-body{
+
+/* body{
     background: radial-gradient(#ddb4b4, #ddd2d2);
     font-family:'Courier New', Courier, monospace;
     color: #57102e; 
-    font-size: 1rem;}
+    font-size: 1rem;} */
     
-    .Color-navbar{
+    /* .Color-navbar{
         background:linear-gradient(#c26188, #ddb4b4, #c26188);}
     .Color-text-Nav{color: #57102e;
                     }
@@ -37,23 +37,23 @@ body{
         padding: 0;
         grid-area:titulo;
         line-height: 0.15rem;
-        }
+        } */
 
     
 
-    .footer{
+    /* .footer{
         display: flex;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        justify-content: space-evenly;}
+        justify-content: space-evenly;} */
 
-    .Redes{display: flex;
+    /* .Redes{display: flex;
         justify-content: center;
         margin-bottom: 1rem;}
+ */
 
 
-
-    .footer__redes{
+    /* .footer__redes{
         display:flex;
         width: 100%;
         height: 5rem; 
@@ -61,18 +61,18 @@ body{
         align-items: center;
         margin: auto;
         justify-content: center;
-        transition: 4s;}
+        transition: 4s;} */
 
-    .footer__redes img:hover{
-        width: 4.5rem; height: 4.5rem;}
+    /* .footer__redes img:hover{
+        width: 4.5rem; height: 4.5rem;} */
 
 
-    .Pie_pagina{
+    /* .Pie_pagina{
         background:linear-gradient(#c26188, #ddb4b4, #c26188);
         color: #57102e;
-        height: 9rem;}
+        height: 9rem;} */
 
-        .face img{
+        /* .face img{
             width: 3.5rem;
             margin-left: 1.5rem;
             margin-right: 1.5rem;}
@@ -83,9 +83,9 @@ body{
         .what img{
             width: 3.5rem;
             margin-left: 1.5rem;
-            margin-right: 1.5rem;}
+            margin-right: 1.5rem;} */
 
-    .footer__paginas{
+    /* .footer__paginas{
         display:flex;
         width: 100%; 
         margin: 0;
@@ -104,14 +104,14 @@ body{
     .Terminos{margin: 0; 
         text-decoration: none;
         
-        }
+        } */
 
 
 
 
 /* contactos */
 
-    .Contact{
+    /* .Contact{
         display: flex;
         width: 100%;    
         margin-bottom: 3rem;}
@@ -134,12 +134,12 @@ body{
             .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
         .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;}
             .Botones input{background-color: #f5dbdb;color: #57102e;border-color: #c26188;}
-
+ */
 
 
 
 /* servicios */
-    .main__titulo{margin-top: 3rem;margin-bottom: 4rem;}
+    /* .main__titulo{margin-top: 3rem;margin-bottom: 4rem;}
 
         .grid__Servicio{
             width: 100%;
@@ -168,28 +168,28 @@ body{
         .parrafos__paginas4{margin: 1rem;grid-area:parrafo4;text-align: justify;}
         .parrafos__paginas5{margin: 0;grid-area:parrafo4;text-align: justify;}
         .parrafos__paginas5 p{margin-top: 1rem;}
-        .parrafos__paginas5 h3,h4,h5{margin-top: 1rem;}
-        .Cards{
+        .parrafos__paginas5 h3,h4,h5{margin-top: 1rem;} */
+        /* .Cards{
         background-color:#fa84b3; color: white;margin-top: 1rem;margin-bottom: 1rem;}
         .Cards img{margin-top: 1rem;}
         .Botones{background-color: #ddb4b4;
         color: #57102e;}
-        
+          */
 
 
 
 
 
 
-/* media de index  768px*/
+/* /* media de index  768px*/
 
-@media(max-width: 768px) and (min-width:660px)
+/* @media(max-width: 768px) and (min-width:660px)
 {
     
     .grid__principall{
         width: 100%;
         margin-top: .75rem;
-        margin-bottom: 3.5rem;
+        margin-bottom: 3.rem;
         padding: 0;
         display:block;
         justify-items: start;}
@@ -225,6 +225,9 @@ body{
 
     .Redes{align-items: center;}
     
+
+
+
     .grid__Servicio{
         width: 100%;
         margin-top: .75rem;
@@ -377,6 +380,6 @@ body{
             
         }
     
-        .Tlim, .Ttra, .Texf{ margin: 0.5rem;}}
+        .Tlim, .Ttra, .Texf{ margin: 0.5rem;}} */
 
  

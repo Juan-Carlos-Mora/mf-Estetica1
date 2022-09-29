@@ -1,0 +1,29 @@
+.Contact{
+    display: flex;
+    width: 100%;    
+    margin-bottom: 3rem;
+    img{width:50%; height: 27rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+}
+        .Fieldset{ 
+            display: flex;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            .Name{margin-top: 1rem;margin-bottom: 1rem;
+                input{background-color: #f5dbdb; border-color: #c26188;}        
+        }
+        .Email{margin-top: 1rem;margin-bottom: 1rem;
+            input{background-color: #f5dbdb; border-color: #c26188;}        
+            }
+            .CTexto{margin-top: 1rem;margin-bottom: 1rem;
+                textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }}
+                
+            .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;
+                input{background-color: #f5dbdb;color: #57102e;border-color: #c26188;}}
+                }
+    
+    }

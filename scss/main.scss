@@ -5,7 +5,6 @@
 @import "catalogo";
 @import "cookies-privacidad-terminos";
 
-
 body{
     background: radial-gradient(#ddb4b4, #ddd2d2);
     font-family:'Courier New', Courier, monospace;
@@ -34,8 +33,55 @@ body{
         padding: 0;
         grid-area:titulo;
         line-height: 0.15rem;
-        }}
+        }
+    img{ width: 100%; height:100%;}}
     
+    .footer{
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-content: space-evenly;}
 
+    .Pie_pagina{
+            background:linear-gradient(#c26188, #ddb4b4, #c26188);
+            color: #57102e;
+            height: 9rem;
+            .footer__redes{
+                display:flex;
+                width: 100%; 
+                height: 5rem; 
+                margin: 0;
+                align-items: center;
+                margin: auto;
+                justify-content: center;
+                transition: 4s;}
+                img{width: 3.5rem;
+                    margin-left: 1.5rem;
+                    margin-right: 1.5rem;}
+                img:hover{
+                width: 4.5rem; height: 4.5rem;}} 
+                .Redes{display: flex;
+                    justify-content: center;
+                    margin-bottom: 1rem;}           
+
+    .footer__paginas{
+                    display:flex;
+                    width: 100%; 
+                    margin: 0;
+                    justify-content: space-evenly;
+                    .privacidad{
+                        margin: 0;
+                        text-decoration: none;
+                        
+                        }
+                    .cookies{margin: 0; 
+                        text-decoration: none;
+                        
+                        }
+                    .Terminos{margin: 0; 
+                        text-decoration: none;
+                        
+                        }
+                    }
 
 
