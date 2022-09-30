@@ -1,4 +1,4 @@
-@import "Screen";
+@import "variables";
 @import "servicio";
 @import "contacto";
 @import "galeria";
@@ -40,7 +40,12 @@ body{
         display: flex;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        justify-content: space-evenly;}
+        justify-content: space-evenly;
+        .footer__horarios{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
+        .footer__servicios{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
+        .footer__contactos{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
+        .footer__direccion{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
+    }
 
     .Pie_pagina{
             background:linear-gradient(#c26188, #ddb4b4, #c26188);
@@ -68,7 +73,7 @@ body{
                     display:flex;
                     width: 100%; 
                     margin: 0;
-                    justify-content: space-evenly;
+                    justify-content: space-around;
                     .privacidad{
                         margin: 0;
                         text-decoration: none;
@@ -83,5 +88,6 @@ body{
                         
                         }
                     }
-
+                    @import "Screen";
+                   
 

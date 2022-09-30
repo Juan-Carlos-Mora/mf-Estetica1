@@ -2,48 +2,46 @@
 {
     
     .grid__principall{
+        display: flex;
+        flex-direction:column;
         width: 100%;
         margin-top: 1rem;
         margin-bottom: 3rem;
-        padding: 0;
-        display:block;
-        justify-items: start;
-        img{ width: 100%; height:100%;
-        margin-bottom: 3rem;}  
+        padding: 0;        
+        font-size: $fuente768;
+        img{ width: 100%;}  
+        
     }
    
     
     .footer{
         flex-direction: row;
+        margin-left: 1rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
         align-items: flex-start;
+        font-size: $fuente768;
         .footer__horarios{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
         .footer__servicios{display:none;}
         .footer__contactos{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
         .footer__direccion{display: none;}
     }
-            
-             
-            
-                      
-    .footer__redes{
-        text-decoration: none;
-        display:flex;
-        width: 100%; 
-        margin: 0.5rem;
-        align-items: center;
-        justify-content: space-evenly;}
                
-    .footer__paginas{
-        display:none;}
-    .privacidad{margin: 0.5rem;}
-    .cookies{margin: 0.5rem;}
-    .Terminos{margin: 0.5rem;}
+    .Pie_pagina{
+        font-size: $fuente768;
+        
+        .footer__redes{
+                display:flex;
+                width: 100%; 
+                align-items: center;
+                justify-content: space-evenly;}
+            .Redes{align-items: center;}
+    }
 
-    .Redes{align-items: center;}
+    
     
     .grid__Servicio{
+        font-size: $fuente768;
         width: 100%;
         margin-top: .75rem;
         margin-bottom: 3.5rem;
@@ -53,34 +51,32 @@
         justify-items: start;}
 
         .Contact{
-            flex-direction: column;
+            font-size: $fuente768;
+            display: block;
             width: 100%;    
-            margin-bottom: 3rem;}
-            .Contact img{width:100%; height: 27rem;
+            margin-bottom: 3rem;
+            img{width:100%; height: 27rem;
                 margin-left: 1rem;
-                margin-right: 1rem;}
-        .Fieldset{ 
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-            .Name{margin-top: 1rem;margin-bottom: 1rem;
-                .Name input{background-color: #f5dbdb; border-color: #c26188;}        
-            }
-            .Email{margin-top: 1rem;margin-bottom: 1rem;
-                .Email input{background-color: #f5dbdb; border-color: #c26188;}        
-            }
-            .CTexto{margin-top: 1rem;margin-bottom: 1rem;
-                .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
-            }
-            .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;
-                .Botones input{        
-                        background-color: #f5dbdb;
-                        color: #57102e;
-                        border-color: #c26188;}} 
-            }
+                margin-right: 1rem;
+                }
+            .Fieldset{
+                    
+                .Name{margin-top: 1rem;margin-bottom: 1rem;
+                    input{background-color: $colorbotones; border-color: $bordebotones;}        
+                }
+                .Email{margin-top: 1rem;margin-bottom: 1rem;
+                    input{background-color: $colorbotones; border-color: $bordebotones;}        
+                }
+                .CTexto{margin-top: 1rem;margin-bottom: 1rem;
+                    textarea{border-color: $bordebotones; color:$colortexto; background-color: $colorbotones; }
+                }
+                .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;
+                    input{        
+                            background-color: $colorbotones;
+                            color: $colortexto;
+                            border-color: $bordebotones;}}}}
+        
+        
         }
     
         
@@ -90,24 +86,29 @@
 
     .grid__principall{
         width: 100%;
-        margin-top: 0.75rem;
-        margin-bottom: 3.5rem;
+        height: 100%;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
         padding: 0;
         display:block;
-        justify-items: start;}
-    .imagen img{ width: 100%; height:100%;}  
+        justify-items:start;
+        font-size: $fuente659;
+        img{ width: 100%; height: 80%;}} 
+     
     
     .footer{
         flex-direction: row;
-        margin-top: 1rem;
+        margin-top: 3rem;
         margin-bottom: 1rem;
-        text-align: center;}
-            
-    .footer__horarios{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
-    .footer__contactos{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}        
-    .footer__servicios{display: none;}    
-    .footer__direccion{display: none;}               
-    .footer__paginas{display:none;}
+        text-align: center;
+        font-size: $fuente659;
+        .footer__horarios{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}
+        .footer__contactos{width: 100%;margin-left: 2rem;margin-right: 1rem; text-align: left;}        
+        .footer__servicios{display: none;}    
+        .footer__direccion{display: none;}               
+       
+    }
+    .footer__paginas{display:none;}      
     .Redes{align-items: center;}
 
     .grid__Servicio{
@@ -117,12 +118,13 @@
         padding: 0;
         display:flex;
         flex-direction: column;
-        justify-items: start;}
+        justify-items: start;
+        font-size: $fuente659;}
         .Contact{
             flex-direction: column;
             width: 100%;    
             margin-bottom: 3rem;}
-        .Contact img{width:100%; height: 27rem;
+        .Contact img{width:100%;
             margin-left: 1rem;
             margin-right: 1rem;}
         .Fieldset{ 
@@ -134,29 +136,29 @@
             padding: 0;}
     
             .Name{margin-top: 1rem;margin-bottom: 1rem;}
-            .Name input{background-color: #f5dbdb; border-color: #c26188;}        
+            .Name input{background-color: $colorbotones; border-color: $bordebotones;}        
             .Email{margin-top: 1rem;margin-bottom: 1rem;}
-            .Email input{background-color: #f5dbdb; border-color: #c26188;}        
+            .Email input{background-color: $colorbotones; border-color: $bordebotones;}        
             .CTexto{margin-top: 1rem;margin-bottom: 1rem;}
-            .CTexto textarea{border-color: #c26188; color: #57102e; background-color: #f5dbdb; }
+            .CTexto textarea{border-color: $bordebotones; color: $colortexto; background-color:$colorbotones; }
             .BotonM{display: flex; justify-content: space-around;margin-top: 1rem;margin-bottom: 1rem;}
             .Botones input{        
-                background-color: #f5dbdb;
-                color: #57102e;
-                border-color: #c26188;
-               
-        
-    }}
+                background-color: $colorbotones;
+                color: $colortexto;
+                border-color: $bordebotones;}}
 
 @media(max-width:399px){
+    html{font-size: $fuente400;}
 
         .grid__principall{
+            
             width: 100%;
             margin-top: 0.75rem;
             margin-bottom: 3.5rem;
             padding: 0;
             display:block;
-            justify-items: start;.main__titulo{margin-top: 3rem;margin-bottom: 4rem;font-size:0.85rem;}
+            justify-items: start;
+            .main__titulo{margin-top: 3rem;margin-bottom: 4rem;font-size:0.85rem;}
             img{ width: 100%; height:100%;}}  
         
         .footer{
@@ -164,14 +166,13 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
             text-align: center;
-        }
-        .Pie_pagina{ 
-        .footer__horarios{width: 100%; text-align:center;}
+            .footer__horarios{width: 100%; text-align:center;}
         .footer__contactos{display: none;}        
         .footer__servicios{display: none;}    
         .footer__direccion{display: none;}               
-        .footer__paginas{display:none;}}
-                
+        .footer__paginas{display:none;}
+        }
+        .footer__paginas{display:none;}      
         .Redes{display: none;}
         
         
@@ -188,21 +189,25 @@
             .Contact{
                 flex-direction: column;
                 width: 100%;    
-                margin-bottom: 3rem;}
-            .Contact img{width:100%; height: 27rem;
-                margin-left: 1rem;
-                margin-right: 1rem;}
-            .Fieldset{ 
-                flex-direction: column;
-                width: 100%;
+                margin-bottom: 3rem;
+                img{width:100%; height: 15rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;}
+            
+                    .Fieldset{ 
+                        flex-direction: column;
+                        width: 100%;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0;
+                        padding: 0;}
                 
-                }
+                                      }
         
                 
                    
             
         }
     
-       /*  .Tlim, .Ttra, .Texf{ margin: 0.5rem;}
- */
+       
  
