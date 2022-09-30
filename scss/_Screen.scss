@@ -123,17 +123,19 @@
         .Contact{
             flex-direction: column;
             width: 100%;    
-            margin-bottom: 3rem;}
-        .Contact img{width:100%;
-            margin-left: 1rem;
-            margin-right: 1rem;}
-        .Fieldset{ 
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;}
+            margin-bottom: 3rem;
+            img{width:100%;
+                margin-left: 1rem;
+                margin-right: 1rem;}
+                .Fieldset{ 
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0;}
+            }
+        
     
             .Name{margin-top: 1rem;margin-bottom: 1rem;}
             .Name input{background-color: $colorbotones; border-color: $bordebotones;}        

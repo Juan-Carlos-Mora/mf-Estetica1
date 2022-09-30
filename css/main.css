@@ -344,17 +344,17 @@ body {
     flex-direction: column;
     width: 100%;
     margin-bottom: 3rem; }
-  .Contact img {
-    width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem; }
-  .Fieldset {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0; }
+    .Contact img {
+      width: 100%;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+    .Contact .Fieldset {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 0; }
   .Name {
     margin-top: 1rem;
     margin-bottom: 1rem; }
