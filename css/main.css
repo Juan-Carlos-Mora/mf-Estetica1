@@ -109,6 +109,9 @@ body {
   color: #57102e;
   font-size: 1rem; }
 
+.animate__animated .animate__bounce {
+  --animate-duration:2s; }
+
 .Color-navbar {
   background: linear-gradient(#c26188, #ddb4b4, #c26188); }
 
