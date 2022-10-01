@@ -7,9 +7,11 @@
     <title>MF-Estetica</title>
     <link rel="shortcut icon" href="./imagenes/logorosado.png" type="image/x-icon">
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </head>
 
@@ -37,13 +39,12 @@
                 </button>
               </div>
         </header>                   
-            <nav class="navbar navbar-expand-lg Color-navbar animate__animated animate__bounce">
-                <div class="container-fluid">
-                <a class="navbar-brand Color-Text-Nav" href="#"><img src="./imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Quienes Somos</a>
+            <nav class="navbar navbar-expand-lg Color-navbar animate__animated animate__backInLeft">
+                <div class="container-fluid animate__animated animate__fadeInDownBig "><a class="navbar-brand Color-Text-Nav " href="#"><img src="./imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Quienes Somos</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse justify-content-stars" id="navbarNav" >
+                  <div class="collapse navbar-collapse justify-content-stars animate__animated animate__bounceInRight" id="navbarNav" >
                     <ul class="navbar-nav">
                       <li class="nav-item">
                         <a class="nav-link Color-Text-Nav" href="./paginas/servicio.html">Servicios</a>
@@ -63,9 +64,11 @@
             </nav>
           <main>
                 <div class="grid__principall">
-                    <div class="main__titulo"><h4>Quienes Somos</h4></div>           
-                    <div  class= "imagen"><img src="./imagenes/variasssssss.jpeg" alt="Tratamiento de punta diamante" width="100%" height="400rem"></div>
-                    <div class="parrafos__paginas"><p>En MF-Estetica nos dedicamos a la imagen y estetica personal, contamos con la mas alta tecnologia y personal capacitado para realizar a nuestra clientela la mejor experiencia y optener los mejores resultados en los tratamientos a realizarce. Colocamos a su alcance productos de calidad que les permitira sentirse y verse bien.
+                    <div class="main__titulo" data-aos="fade-down-right"><h4>Quienes Somos</h4></div>           
+                    <div  class= "imagen" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"><img src="./imagenes/variasssssss.jpeg" alt="Tratamiento de punta diamante" width="100%" height="400rem"></div>
+                    <div class="parrafos__paginas" data-aos="fade-left"><p>En MF-Estetica nos dedicamos a la imagen y estetica personal, contamos con la mas alta tecnologia y personal capacitado para realizar a nuestra clientela la mejor experiencia y optener los mejores resultados en los tratamientos a realizarce. Colocamos a su alcance productos de calidad que les permitira sentirse y verse bien.
                     </p>
                     <h6>Valores</h6>
                         <div>
@@ -82,7 +85,7 @@
                 </div>
           </main>
           <footer>
-                <div class="footer"> 
+                <div class="footer"data-aos="fade-up"> 
                 
                     <div class="footer__horarios">
                         <h6>Horarios de Atencion:</h6>
@@ -109,8 +112,8 @@
                         <li > Mar del Plata, Maipu 5800 Piso 1 Local 3</li>
                     </div>
                 </div>
-                <div class="Pie_pagina">
-                    <div class="footer__redes">
+                <div class="Pie_pagina"data-aos="fade-up">
+                    <div class="footer__redes"data-aos="zoom-in">
                         
                         <a class="face" href="http:www.facebook.com" target="_blank"><img src="./imagenes/facebook-removebg-preview (1).png" class="Face"alt="facebook"></a>
                         <a  class="inst" href="http:www.Instagram.com" target="_blank"><img src="./imagenes/insta-removebg-preview (1).png" class="Insta"alt="Instagram"></a>
@@ -126,8 +129,9 @@
                 </div>
           </footer>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>AOS.init();</script>  
+  </body>
 </html>
 
     

@@ -23,6 +23,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4"
   }
 }

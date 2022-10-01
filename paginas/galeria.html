@@ -8,6 +8,9 @@
         <link rel="shortcut icon" href="..//imagenes/logorosado.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="..//css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
 <body>
     <header>
@@ -33,8 +36,8 @@
             </button>
           </div>
     </header>
-    <nav class="navbar navbar-expand-lg Color-navbar">
-        <div class="container-fluid"><a class="navbar-brand Color-Text-Nav" href="#"><img src="../imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Galeria</a>
+    <nav class="navbar navbar-expand-lg Color-navbar animate__animated animate__backInLeft">
+        <div class="container-fluid animate__animated animate__fadeInDownBig"><a class="navbar-brand Color-Text-Nav" href="#"><img src="../imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Galeria</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse justify-content-stars" id="navbarNav" >
                 <ul class="navbar-nav">
@@ -48,19 +51,43 @@
     </nav>
 
     <main>
-        <h2 class="mt-2 text-center">Instalaciones</h2>
-        <div>
-            <img src="../imagenes/carrusel/lugar.png" alt="Spa" width="100%">
-        </div>
-        <h2 class="mt-2 text-center">Equipo</h2>
-        <div></div><img src="../imagenes/carrusel/accesorios-dispositivo-hydrafacial-maquina-cuidado-piel-facial-clinica-spa-tratamiento-anti-envejecimiento-o-acne_251474-179.png" alt="Spa" width="100%">
+        <h2 class="mt-2 text-center main__titulo1">Instalaciones y Equipos</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/carrusel/Clinica-Premium-Estetica-Marbella-Instalaciones-cabinete-tratamientos.psd.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/carrusel/Clinica-Premium-Estetica-Marbella-Instalaciones-tratamiento-facial.psd.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/carrusel/cabina-estetica-1920x1050-1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/carrusel/AVTC_aparatologia_estetica.psd.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
         
     </main>
   
 
     <footer>
-            <div class="footer"> 
+            <div class="footer" data-aos="fade-up"> 
             
                 <div class="footer__horarios">
                     <h6 class="alineacion__h3footer">Horarios de Atencion:</h6>
@@ -86,8 +113,8 @@
                     <h6 class="alineacion__h3footer">Direccion:</h6>
                     <li > Mar del Plata, Maipu 5800 Piso 1 Local 3</li></div>
             </div>
-            <div class="Pie_pagina">
-                <div class="footer__redes">
+            <div class="Pie_pagina"data-aos="fade-up">
+                <div class="footer__redes"data-aos="zoom-in">
                     
                     <a class="face" href="http:www.facebook.com" target="_blank"><img src="../imagenes/facebook-removebg-preview (1).png" class="Face"alt="facebook"></a>
                     <a  class="inst" href="http:www.Instagram.com" target="_blank"><img src="../imagenes/insta-removebg-preview (1).png" class="Insta"alt="Instagram"></a>
@@ -103,6 +130,6 @@
             </div>       
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+    <script>AOS.init();</script>
 </body>
 </html>
