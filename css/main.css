@@ -1,3 +1,10 @@
+.animate__animated .animate__fadeInDownBig {
+  --animate-duration: 2s;
+  --animation-delay: 2s; }
+
+.animate__animated .animate__backInLeft {
+  --animate-duration: 2s; }
+
 .grid__Servicio {
   width: 100%;
   height: 1fr;
@@ -111,9 +118,8 @@ body {
 
 .Color-navbar {
   background: linear-gradient(#c26188, #ddb4b4, #c26188); }
-
-.Color-text-Nav {
-  color: #57102e; }
+  .Color-navbar .Color-text-Nav {
+    color: #57102e; }
 
 .grid__principall {
   width: 100%;
@@ -130,13 +136,20 @@ body {
   grid-template-areas: "titulo titulo" "imagen parrafo" "parrafo2 parrafo2"; }
   .grid__principall .main__titulo {
     color: #57102e;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
     padding: 0;
     grid-area: titulo;
     line-height: 0.15rem; }
   .grid__principall img {
     width: 100%;
     height: 100%; }
+
+.main__titulo1 {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  padding: 0; }
 
 .footer {
   display: flex;

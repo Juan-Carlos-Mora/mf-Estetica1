@@ -6,7 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../imagenes/logorosado.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-            <link rel="stylesheet" href="..//css/mf-estetica2.css">
+        <link rel="stylesheet" href="..//css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
 <body>
     <header>
@@ -32,8 +35,8 @@
             </button>
           </div>
     </header>
-        <nav class="navbar navbar-expand-lg Color-navbar">
-            <div class="container-fluid"><a class="navbar-brand Color-Text-Nav" href="../index.html"><img src="../imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Quienes Somos</a>
+        <nav class="navbar navbar-expand-lg Color-navbar animate__animated animate__backInLeft">
+            <div class="container-fluid animate__animated animate__fadeInDownBig"><a class="navbar-brand Color-Text-Nav" href="../index.html"><img src="../imagenes/logorosado.png" alt="MF-Estetica" width="80px" height="80px">Quienes Somos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse justify-content-stars" id="navbarNav" >
                     <ul class="navbar-nav">
@@ -46,7 +49,7 @@
             </div>          
         </nav>
     <main>
-        <h2 class="main__titulo">Terminos y Condiciones</h2>
+        <h2 class="main__titulo1">Terminos y Condiciones</h2>
         <div class="container fluid parrafos__paginas5">
             <p>Estos Términos y Condiciones para Sitio Web pueden ser utilizados por la persona o entidad que es propietaria de un sitio de Internet ("sitio web") para precisar la relación contractual con cada persona que, en calidad de usuaria, visita el sitio web. Este documento cumple los requisitos del Código Civil y Comercial de la Nación y de la Ley N° 25.326 y modificatorias.
             </p>     
@@ -118,7 +121,7 @@
            <p> - de la Ley N° 25.326 y modificatorias.</p></div>
     </main>
     <footer>
-        <div class="footer"> 
+        <div class="footer" data-aos="fade-up"> 
             
             <div class="footer__horarios">
                 <h6 class="alineacion__h3footer">Horarios de Atencion:</h6>
@@ -144,8 +147,8 @@
                 <h6 class="alineacion__h3footer">Direccion:</h6>
                 <li > Mar del Plata, Maipu 5800 Piso 1 Local 3</li></div>
         </div>
-        <div class="Pie_pagina">
-            <div class="footer__redes">
+        <div class="Pie_pagina"data-aos="fade-up">
+            <div class="footer__redes"data-aos="zoom-in">
                 
                 <a class="face" href="http:www.facebook.com" target="_blank"><img src="../imagenes/facebook-removebg-preview (1).png" class="Face"alt="facebook"></a>
                 <a  class="inst" href="http:www.Instagram.com" target="_blank"><img src="../imagenes/insta-removebg-preview (1).png" class="Insta"alt="Instagram"></a>
@@ -161,6 +164,6 @@
         </div>   
     </footer>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
+    <script>AOS.init();</script>
 </body>
 </html>
