@@ -4,7 +4,7 @@
 @import "contacto";
 @import "galeria";
 @import "catalogo";
-@import "cookies-privacidad-terminos";
+
 
 body{
     background: radial-gradient($colordefondo1, $colordefondo2);
@@ -70,9 +70,9 @@ body{
                 margin: auto;
                 justify-content: center;
                 transition: 4s;}
-                img{width: 3.5rem;
-                    margin-left: 1.5rem;
-                    margin-right: 1.5rem;}
+                img{width: map-get($redesociales ,tamimgredes);
+                    margin-left: map-get($redesociales , margleftredes );
+                    margin-right:map-get($redesociales , margrightredes );}
                 img:hover{
                 width: 4.5rem; height: 4.5rem;}} 
                 .Redes{display: flex;
@@ -87,15 +87,16 @@ body{
                     .privacidad{
                         margin: 0;
                         text-decoration: none;
+                        color: $colortexto;
                         
                         }
                     .cookies{margin: 0; 
                         text-decoration: none;
-                        
+                        color: $colortexto;
                         }
                     .Terminos{margin: 0; 
                         text-decoration: none;
-                        
+                        color: $colortexto;
                         }
                         
                     }

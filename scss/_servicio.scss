@@ -13,7 +13,6 @@
             grid-column-gap: 1rem;
             grid-row-gap: 1rem;
             grid-template-areas: "titulo titulo" "imagen parrafo" "imagen2 parrafo2" "imagen3 parrafo3" "imagen4 parrafo4";
-            .main__titulo{margin-top: 3rem;margin-bottom: 4rem;}
             .imagen{grid-area:imagen;}
             .imagen2{grid-area:imagen2;}
             .imagen3{grid-area:imagen3;}
