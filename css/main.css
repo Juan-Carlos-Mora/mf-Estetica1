@@ -114,9 +114,9 @@ body {
   color: #57102e;
   font-size: 1rem; }
 
-.Color-navbar {
+.Color-navbar, .Pie_pagina {
   background: linear-gradient(#c26188, #ddb4b4, #c26188); }
-  .Color-navbar .Color-text-Nav {
+  .Color-navbar .Color-text-Nav, .Pie_pagina .Color-text-Nav {
     color: #57102e; }
 
 .grid__principall {
@@ -151,6 +151,7 @@ body {
 
 .footer {
   display: flex;
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   justify-content: space-evenly; }
@@ -176,7 +177,6 @@ body {
     text-align: left; }
 
 .Pie_pagina {
-  background: linear-gradient(#c26188, #ddb4b4, #c26188);
   color: #57102e;
   height: 9rem; }
   .Pie_pagina .footer__redes {
@@ -206,15 +206,7 @@ body {
   width: 100%;
   margin: 0;
   justify-content: space-around; }
-  .footer__paginas .privacidad {
-    margin: 0;
-    text-decoration: none;
-    color: #57102e; }
-  .footer__paginas .cookies {
-    margin: 0;
-    text-decoration: none;
-    color: #57102e; }
-  .footer__paginas .Terminos {
+  .footer__paginas .privacidad, .footer__paginas .cookies, .footer__paginas .Terminos {
     margin: 0;
     text-decoration: none;
     color: #57102e; }
@@ -222,8 +214,8 @@ body {
 @media (max-width: 768px) and (min-width: 660px) {
   .grid__principall {
     display: flex;
-    flex-direction: column;
     width: 100%;
+    flex-direction: column;
     margin-top: 1rem;
     margin-bottom: 3rem;
     padding: 0;
@@ -261,12 +253,12 @@ body {
     .Pie_pagina .Redes {
       align-items: center; }
   .grid__Servicio {
-    font-size: 0.85rem;
+    display: flex;
     width: 100%;
+    font-size: 0.85rem;
     margin-top: .75rem;
     margin-bottom: 3.5rem;
     padding: 0;
-    display: flex;
     flex-direction: column;
     justify-items: start; }
   .Contact {
@@ -346,11 +338,11 @@ body {
   .Redes {
     align-items: center; }
   .grid__Servicio {
+    display: flex;
     width: 100%;
     margin-top: .75rem;
     margin-bottom: 3.5rem;
     padding: 0;
-    display: flex;
     flex-direction: column;
     justify-items: start;
     font-size: 0.75rem; }
@@ -437,11 +429,11 @@ body {
   .Redes {
     display: none; }
   .grid__Servicio {
+    display: flex;
     width: 100%;
     margin-top: .75rem;
     margin-bottom: 3.5rem;
     padding: 0;
-    display: flex;
     flex-direction: column;
     justify-items: start; }
   .Contact {

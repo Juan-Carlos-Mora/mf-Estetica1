@@ -47,7 +47,7 @@ body{
         padding: 0;
         }
     .footer{
-        display: flex;
+        @include flex;
         margin-top: 2rem;
         margin-bottom: 2rem;
         justify-content: space-evenly;
@@ -58,12 +58,11 @@ body{
     }
 
     .Pie_pagina{
-            background:linear-gradient($bordebotones, $colordefondo1,$bordebotones);
+            @extend.Color-navbar;
             color: $colortexto;
             height: 9rem;
             .footer__redes{
-                display:flex;
-                width: 100%; 
+                @include flex; 
                 height: 5rem; 
                 margin: 0;
                 align-items: center;
@@ -80,8 +79,7 @@ body{
                     margin-bottom: 1rem;}           
 
     .footer__paginas{
-                    display:flex;
-                    width: 100%; 
+                    @include flex; 
                     margin: 0;
                     justify-content: space-around;
                     .privacidad{
@@ -90,13 +88,10 @@ body{
                         color: $colortexto;
                         
                         }
-                    .cookies{margin: 0; 
-                        text-decoration: none;
-                        color: $colortexto;
+                    .cookies{
+                        @extend.privacidad;
                         }
-                    .Terminos{margin: 0; 
-                        text-decoration: none;
-                        color: $colortexto;
+                    .Terminos{@extend .privacidad;
                         }
                         
                     }

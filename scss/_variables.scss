@@ -13,4 +13,6 @@ $redesociales:(
     margleftredes:1.5rem,
     margrightredes:1.5rem);
     
-   
+@mixin flex{
+    display: flex;
+    width: 100%;}
