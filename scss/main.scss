@@ -12,7 +12,11 @@ body{
     font-size: 1rem;}
     
     .Color-navbar{background:linear-gradient($bordebotones, $colordefondo1, $bordebotones);
-        .Color-text-Nav{color: $colortexto;}}
+        .Color-text-Nav{color: $colortexto;}
+    .text-menu{font-size: 25px;
+    color: $colortexto;}
+    .text-menu1{font-size: 18px;
+        color: $colortexto;}}
 
     
 
@@ -92,6 +96,8 @@ body{
                         }
                     .Terminos{@extend .privacidad;
                         }
+
+                    .row{width: 1fr}
                         
                     }
                     @import "Screen";
