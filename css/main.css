@@ -1,9 +1,11 @@
 .animate__animated .animate__fadeInDownBig {
-  --animate-duration: 2s;
-  --animation-delay: 2s; }
+  animation-duration: 1.5s; }
 
 .animate__animated .animate__backInLeft {
-  --animate-duration: 2s; }
+  animation-duration: 1s; }
+
+.animate__pulse {
+  animation-delay: 3s; }
 
 /* map get */
 .grid__Servicio {
@@ -20,13 +22,17 @@
   grid-row-gap: 1rem;
   grid-template-areas: "titulo titulo" "imagen parrafo" "imagen2 parrafo2" "imagen3 parrafo3" "imagen4 parrafo4"; }
   .grid__Servicio .imagen {
-    grid-area: imagen; }
+    grid-area: imagen;
+    margin-left: 10px; }
   .grid__Servicio .imagen2 {
-    grid-area: imagen2; }
+    grid-area: imagen2;
+    margin-left: 10px; }
   .grid__Servicio .imagen3 {
-    grid-area: imagen3; }
+    grid-area: imagen3;
+    margin-left: 10px; }
   .grid__Servicio .imagen4 {
-    grid-area: imagen4; }
+    grid-area: imagen4;
+    margin-left: 10px; }
   .grid__Servicio .parrafos__paginas {
     margin: 1rem;
     grid-area: parrafo;
@@ -57,7 +63,6 @@
   width: 100%;
   margin-bottom: 3rem; }
   .Contact img {
-    width: 50%;
     height: 27rem;
     margin-left: 1rem;
     margin-right: 1rem; }
@@ -117,6 +122,12 @@ body {
 .Color-navbar, .Pie_pagina {
   background: linear-gradient(#c26188, #ddb4b4, #c26188); }
   .Color-navbar .Color-text-Nav, .Pie_pagina .Color-text-Nav {
+    color: #57102e; }
+  .Color-navbar .text-menu, .Pie_pagina .text-menu {
+    font-size: 25px;
+    color: #57102e; }
+  .Color-navbar .text-menu1, .Pie_pagina .text-menu1 {
+    font-size: 18px;
     color: #57102e; }
 
 .grid__principall {
@@ -210,6 +221,8 @@ body {
     margin: 0;
     text-decoration: none;
     color: #57102e; }
+  .footer__paginas .row {
+    width: 1fr; }
 
 @media (max-width: 768px) and (min-width: 660px) {
   .grid__principall {
@@ -298,7 +311,8 @@ body {
       .Contact .Fieldset .BotonM input {
         background-color: #f5dbdb;
         color: #57102e;
-        border-color: #c26188; } }
+        border-color: #c26188; }
+  /* .screen{ display: block;} */ }
 
 @media (max-width: 659px) and (min-width: 400px) {
   .grid__principall {
