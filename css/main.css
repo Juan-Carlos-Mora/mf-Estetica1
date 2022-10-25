@@ -432,23 +432,29 @@ body {
     border-color: #c26188; } }
 
 @media (max-width: 399px) {
-  html {
-    font-size: 0.7rem; }
   .grid__principall {
+    display: flex;
     width: 100%;
-    margin-top: 0.75rem;
-    margin-bottom: 3.5rem;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     padding: 0;
-    display: block;
-    justify-items: start; }
-    .grid__principall .main__titulo {
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-      font-size: 0.85rem; }
+    text-align: justify;
+    font-size: 0.75rem; }
+    .grid__principall .parrafos__paginas {
+      width: 95%;
+      text-align: justify;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+    .grid__principall .imagen {
+      width: 95%;
+      margin-left: 1rem;
+      margin-right: 1rem; }
     .grid__principall img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 2rem; }
+      height: 90%; }
   .footer {
     flex-direction: row;
     margin-top: 1rem;
@@ -463,8 +469,8 @@ body {
       display: none; }
     .footer .footer__direccion {
       display: none; }
-    .footer .footer__paginas {
-      display: none; }
+  .footer__paginas {
+    display: none; }
   .Redes {
     display: none; }
   .grid__Servicio {
@@ -478,10 +484,10 @@ body {
   .Contact {
     flex-direction: column;
     justify-items: center;
-    width: 80%;
+    width: 100%;
     margin-bottom: 3rem; }
     .Contact img {
-      width: 80%;
+      width: 90%;
       height: 15rem;
       margin-left: 1rem;
       margin-right: 1rem; }
