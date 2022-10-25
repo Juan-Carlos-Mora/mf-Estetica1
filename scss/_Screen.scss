@@ -3,12 +3,23 @@
     
     .grid__principall{
         @include flex;
+        
         flex-direction:column;
+        align-items: center;
         margin-top: 1rem;
         margin-bottom: 3rem;
-        padding: 0;        
+        padding: 0; 
         font-size: $fuente768;
-        img{ width: 100%;}  
+        .parrafos__paginas{
+            width: 95%;
+            text-align: justify;
+            margin-left: 1rem;
+            margin-right: 1rem;}
+    
+       .imagen{
+            width: 95%;
+            margin-left: 1rem;
+            margin-right: 1rem;}  
         
     }
    
@@ -40,19 +51,21 @@
     
     .grid__Servicio{
         @include flex;
+        flex-direction: column;
         font-size: $fuente768;
         margin-top: .75rem;
         margin-bottom: 3.5rem;
         padding: 0;
         flex-direction: column;
-        justify-items: start;}
+        justify-items: center;}
 
         .Contact{
             font-size: $fuente768;
-            display: block;
-            width: 100%;    
+            flex-direction: column;
+            justify-items: center;
+            width: 80%;    
             margin-bottom: 3rem;
-            img{width:100%; height: 27rem;
+            img{width:80%; height: 25rem;
                 margin-left: 1rem;
                 margin-right: 1rem;
                 }
@@ -72,7 +85,7 @@
                             background-color: $colorbotones;
                             color: $colortexto;
                             border-color: $bordebotones;}}}}
-          /* .screen{ display: block;} */                  
+                          
         
         
         }
@@ -83,15 +96,26 @@
 
 
     .grid__principall{
+        @include flex
+        flex-direction: column;
+        justify-items: center;
         width: 100%;
         height: 100%;
         margin-top: 1rem;
         margin-bottom: 3rem;
         padding: 0;
-        display:block;
-        justify-items:start;
+        text-align: justify;
         font-size: $fuente659;
-        img{ width: 100%; height: 80%;}} 
+        .parrafos__paginas{
+            width: 95%;
+            text-align: justify;
+            margin-left: 1rem;
+            margin-right: 1rem;}
+    
+       .imagen{
+            width: 95%;
+            margin-left: 1rem;
+            margin-right: 1rem;} } 
      
     
     .footer{
@@ -119,9 +143,10 @@
         font-size: $fuente659;}
         .Contact{
             flex-direction: column;
-            width: 100%;    
+            width: 80%;    
             margin-bottom: 3rem;
-            img{width:100%;
+            img{width:90%;
+                height: 17rem;
                 margin-left: 1rem;
                 margin-right: 1rem;}
                 .Fieldset{ 
@@ -166,12 +191,10 @@
             margin-bottom: 1rem;
             text-align: center;
             .footer__horarios{width: 100%; text-align:center;}
-        .footer__contactos{display: none;}        
-        .footer__servicios{display: none;}    
-        .footer__direccion{display: none;}               
-        .footer__paginas{display:none;}
-        }
-        .footer__paginas{display:none;}      
+            .footer__contactos{display: none;}        
+            .footer__servicios{display: none;}    
+            .footer__direccion{display: none;}               
+            .footer__paginas{display:none;}}    
         .Redes{display: none;}
         
         
@@ -186,9 +209,10 @@
 
             .Contact{
                 flex-direction: column;
-                width: 100%;    
+                justify-items: center;
+                width: 80%;    
                 margin-bottom: 3rem;
-                img{width:100%; height: 15rem;
+                img{width:80%; height: 15rem;
                     margin-left: 1rem;
                     margin-right: 1rem;}
             
@@ -200,10 +224,7 @@
                         margin: 0;
                         padding: 0;}
                 
-                                      }
-        
-                
-                   
+                                      }                 
             
         }
     

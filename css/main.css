@@ -60,15 +60,18 @@
 
 .Contact {
   display: flex;
-  width: 100%;
-  margin-bottom: 3rem; }
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem; }
   .Contact img {
-    height: 27rem;
+    width: 90%;
+    height: 26rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem; }
   .Contact .Fieldset {
     display: flex;
-    width: 50%;
+    width: 80%;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -145,13 +148,18 @@ body {
   grid-template-areas: "titulo titulo" "imagen parrafo" "parrafo2 parrafo2"; }
   .grid__principall .main__titulo {
     color: #57102e;
+    width: 95%;
     margin-top: 2rem;
     margin-left: 1rem;
     padding: 0;
     grid-area: titulo;
     line-height: 0.15rem; }
-  .grid__principall img {
-    width: 100%;
+  .grid__principall .parrafos__paginas {
+    text-align: justify;
+    width: 95%;
+    margin-right: 1rem; }
+  .grid__principall .imagen {
+    width: 95%;
     height: 100%; }
 
 .main__titulo1 {
@@ -229,12 +237,20 @@ body {
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
     padding: 0;
     font-size: 0.85rem; }
-    .grid__principall img {
-      width: 100%; }
+    .grid__principall .parrafos__paginas {
+      width: 95%;
+      text-align: justify;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+    .grid__principall .imagen {
+      width: 95%;
+      margin-left: 1rem;
+      margin-right: 1rem; }
   .footer {
     flex-direction: row;
     margin-left: 1rem;
@@ -268,20 +284,22 @@ body {
   .grid__Servicio {
     display: flex;
     width: 100%;
+    flex-direction: column;
     font-size: 0.85rem;
     margin-top: .75rem;
     margin-bottom: 3.5rem;
     padding: 0;
     flex-direction: column;
-    justify-items: start; }
+    justify-items: center; }
   .Contact {
     font-size: 0.85rem;
-    display: block;
-    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+    width: 80%;
     margin-bottom: 3rem; }
     .Contact img {
-      width: 100%;
-      height: 27rem;
+      width: 80%;
+      height: 25rem;
       margin-left: 1rem;
       margin-right: 1rem; }
     .Contact .Fieldset .Name {
@@ -311,22 +329,30 @@ body {
       .Contact .Fieldset .BotonM input {
         background-color: #f5dbdb;
         color: #57102e;
-        border-color: #c26188; }
-  /* .screen{ display: block;} */ }
+        border-color: #c26188; } }
 
 @media (max-width: 659px) and (min-width: 400px) {
   .grid__principall {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
     width: 100%;
     height: 100%;
     margin-top: 1rem;
     margin-bottom: 3rem;
     padding: 0;
-    display: block;
-    justify-items: start;
+    text-align: justify;
     font-size: 0.75rem; }
-    .grid__principall img {
-      width: 100%;
-      height: 80%; }
+    .grid__principall .parrafos__paginas {
+      width: 95%;
+      text-align: justify;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+    .grid__principall .imagen {
+      width: 95%;
+      margin-left: 1rem;
+      margin-right: 1rem; }
   .footer {
     flex-direction: row;
     margin-top: 3rem;
@@ -362,10 +388,11 @@ body {
     font-size: 0.75rem; }
   .Contact {
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     margin-bottom: 3rem; }
     .Contact img {
-      width: 100%;
+      width: 90%;
+      height: 17rem;
       margin-left: 1rem;
       margin-right: 1rem; }
     .Contact .Fieldset {
@@ -438,8 +465,6 @@ body {
       display: none; }
     .footer .footer__paginas {
       display: none; }
-  .footer__paginas {
-    display: none; }
   .Redes {
     display: none; }
   .grid__Servicio {
@@ -452,10 +477,11 @@ body {
     justify-items: start; }
   .Contact {
     flex-direction: column;
-    width: 100%;
+    justify-items: center;
+    width: 80%;
     margin-bottom: 3rem; }
     .Contact img {
-      width: 100%;
+      width: 80%;
       height: 15rem;
       margin-left: 1rem;
       margin-right: 1rem; }
