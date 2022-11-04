@@ -3,7 +3,7 @@
     
     .grid__principall{
         @include flex;
-        
+        margin: 0;
         flex-direction:column;
         align-items: center;
         margin-top: 1rem;
@@ -191,7 +191,7 @@
             width: 95%;
             margin-left: 1rem;
             margin-right: 1rem;} 
-        img{height: 90%;}}   
+        img{height: 95%;}}   
         
         .footer{
             flex-direction: row;

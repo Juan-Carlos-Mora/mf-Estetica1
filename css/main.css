@@ -122,6 +122,34 @@ body {
   color: #57102e;
   font-size: 1rem; }
 
+h6 {
+  font-weight: bold;
+  color: #57102e; }
+
+H5 {
+  font-weight: bold;
+  color: #57102e; }
+
+h4 {
+  font-weight: bold;
+  color: #57102e; }
+
+h3 {
+  font-weight: bold;
+  color: #57102e; }
+
+h2 {
+  font-weight: bold;
+  color: #57102e; }
+
+h1 {
+  font-weight: bold;
+  color: #57102e; }
+
+.LOGOestetica {
+  width: 100px;
+  height: 60px; }
+
 .Color-navbar, .Pie_pagina {
   background: linear-gradient(#c26188, #ddb4b4, #c26188); }
   .Color-navbar .Color-text-Nav, .Pie_pagina .Color-text-Nav {
@@ -236,6 +264,7 @@ body {
   .grid__principall {
     display: flex;
     width: 100%;
+    margin: 0;
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
@@ -454,7 +483,7 @@ body {
       margin-left: 1rem;
       margin-right: 1rem; }
     .grid__principall img {
-      height: 90%; }
+      height: 95%; }
   .footer {
     flex-direction: row;
     margin-top: 1rem;

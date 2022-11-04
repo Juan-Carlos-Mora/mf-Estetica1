@@ -10,10 +10,19 @@ body{
     font-family:'Courier New', Courier, monospace;
     color: $colortexto; 
     font-size: 1rem;}
-    
+    h6{font-weight: bold;color:$colortexto;}
+    H5{font-weight: bold;color:$colortexto;}
+    h4{font-weight: bold;
+    color:$colortexto;}
+    h3{font-weight: bold;color:$colortexto;}
+    h2{font-weight: bold;color:$colortexto;}
+    h1{font-weight: bold;color:$colortexto;}
+    .LOGOestetica{width: 100px;height: 60px;}
     .Color-navbar{background:linear-gradient($bordebotones, $colordefondo1, $bordebotones);
         .Color-text-Nav{color: $colortexto;}
-    .text-menu{font-size: 25px;
+        
+    .text-menu{        
+        font-size: 25px;
     color: $colortexto;}
     .text-menu1{font-size: 18px;
         color: $colortexto;}}
